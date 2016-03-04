@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Update Customer", "Update Customer.vcxproj", "{1C861363-EF3B-4451-9D9A-1837E66CE550}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quick Plate", "..\..\Library\Quick Plate\Quick Plate.vcxproj", "{B0B64617-BC0A-4948-84BE-FD23EE1E4356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Debug|Win32.ActiveCfg = Release|x64
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Debug|Win32.Build.0 = Release|x64
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Debug|x64.ActiveCfg = Release|x64
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Debug|x64.Build.0 = Release|x64
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Release|Win32.ActiveCfg = Release|Win32
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Release|Win32.Build.0 = Release|Win32
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Release|x64.ActiveCfg = Release|x64
+		{1C861363-EF3B-4451-9D9A-1837E66CE550}.Release|x64.Build.0 = Release|x64
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Debug|Win32.ActiveCfg = Release|x64
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Debug|x64.ActiveCfg = Release|x64
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Debug|x64.Build.0 = Release|x64
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Release|Win32.ActiveCfg = Release|Win32
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Release|Win32.Build.0 = Release|Win32
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Release|x64.ActiveCfg = Release|x64
+		{B0B64617-BC0A-4948-84BE-FD23EE1E4356}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
