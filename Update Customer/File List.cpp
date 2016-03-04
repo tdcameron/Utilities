@@ -1633,6 +1633,8 @@ bool FILE_LIST::DownloadPictureFile(PCHAR		PartNumber,
 
 	if (StringEqual(PartNumber, "")) return false;
 
+	if (Features.CustomerType == Anodizing_customer) return false;
+
 	GetDoubleTime(&CurrentTime);
 
 	CustomerIndex = OurCustomerList->GetIndex("Document Server");
