@@ -2334,6 +2334,7 @@ bool CUSTOM_APPLICATION::CommandProc (WPARAM	wParam,
 		case ID_SOURCE_PUBLISH:
 		{
 			if (FileList.DoingFileTransfer ()) break;
+			
 			ReportError("Update Customer", "No publish customer at this time!");
 			break;
 		}
