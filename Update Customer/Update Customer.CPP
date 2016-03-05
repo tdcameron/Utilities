@@ -2335,7 +2335,6 @@ bool CUSTOM_APPLICATION::CommandProc (WPARAM	wParam,
 		{
 			if (FileList.DoingFileTransfer ()) break;
 
-			//Can this do a Git sync?
 			ReportError("Update Customer", "No publish customer at this time!");
 			break;
 		}
